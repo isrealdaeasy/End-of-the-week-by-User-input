@@ -1,0 +1,17 @@
+print(f"End of the week by User input \n ")
+day = int(input("Enter your Number for the day (1-7) : "))
+match day :
+    case 1:
+        print(f"{day} is Monday")
+    case 2:
+        print(f"{day} is Tuesday")
+    case 3:
+        print(f"{day} is Wednesday")
+    case  4:
+        print(f"{day} is Thursday")
+    case  5:
+        print(f"{day} is Friday")
+    case  6:
+        print(f"{day} is Saturday")
+    case  7:
+        print(f"{day} is Sunday")
